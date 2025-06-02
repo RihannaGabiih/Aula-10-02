@@ -3,7 +3,7 @@ package Aula1002;
 import java.util.Scanner;
 
 
-public class problemapiso {
+public class ProblemaPiso {
 
 	public static void main(String[] args) {
 		//area e custo de um comodo
@@ -21,7 +21,7 @@ public class problemapiso {
 		System.out.println(String.format("Comprimento: %.1f" , compri));
 		
 		System.out.print("Digite o valor do metro quadrado:");
-		double metroq;
+		double metroQuadrado;
 		metroq = sc.nextDouble();
 		System.out.println(String.format("Metro quadrado: %.2f" , metroq));
 		
