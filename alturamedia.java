@@ -2,7 +2,7 @@ package Aula1002;
 
 import java.util.Scanner;
 
-public class alturamedia {
+public class AlturaMedia {
 
 	public static void main(String[] args) {
 		
@@ -24,9 +24,9 @@ public class alturamedia {
 		Double altura2;
 		altura2 = sc.nextDouble();
 		
-		double alturamedia;
-		alturamedia = (altura1 + altura2) / 2 ;
-		System.out.print(String.format("Altura media:", alturamedia );
+		double alturaMedia;
+		alturaMedia = (altura1 + altura2) / 2 ;
+		System.out.print(String.format("Altura media:", alturaMedia );
 		
 		sc.close();
 	
